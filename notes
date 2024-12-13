@@ -29,3 +29,40 @@ INIT CCOMMANDS
 	git branch -M main (rename branch)
 	git push origin main 
 	git push -u origin main ----(-u to set all change on main ) ---> git push
+	
+	
+	
+	
+	
+WORK FLOW 
+
+	Create repo 
+	   |
+	   |
+	clone the repo
+	   |
+	   |
+	set the changes 
+	   |
+	   |
+	git add .
+	   |
+	   |
+	git commit -m ""
+	   |
+	   |
+	git push origin main
+	
+	
+	
+	
+	
+BRANCH COMMANDS
+
+	git branch (check brach) 
+	git checkout -b "branchName"  (create a new branch)
+	git branch  
+	git checkout "branchName" (to navigate branch)
+
+
+	   
