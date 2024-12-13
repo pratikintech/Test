@@ -16,4 +16,16 @@ git status
  git add .
  git commit 
  git push origin main 
-hello
+
+
+
+INIT CCOMMANDS
+
+	git init
+	git remote add origin "Link"
+	git remote -v (to verify remote) "To check you are in remote Branch"
+	git branch (check brach) 
+	*Master  --- change the name of branch to master --> main
+	git branch -M main (rename branch)
+	git push origin main 
+	git push -u origin main ----(-u to set all change on main ) ---> git push
