@@ -63,6 +63,15 @@ BRANCH COMMANDS
 	git checkout -b "branchName"  (create a new branch)
 	git branch  
 	git checkout "branchName" (to navigate branch)
+	
+	
+MERGING CODE
 
+	git diff "branchname"
+	git merge "branch name" ---- can also do from gitweb	
 
+GIT PULL
+	
+	git pull origin
+	
 	   
