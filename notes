@@ -1,9 +1,10 @@
+==========================================GIT CONFIG==========================================
 git config --global user.name ""
 git config --global user.email ""
 git config --list
 git clone *LINK*
 cd *FILENAME*
-git status 
+========================================= git status =========================================
  		~Untracked
  		new files that git doesnt yet track
  		~modifies 
@@ -12,14 +13,17 @@ git status
  		file is ready to be committed
  		~unmodified
  		unchanged
- 		
+ 
+ 
+ 
+ ========================================main commands=============================		
  git add .
  git commit 
  git push origin main 
 
 
 
-INIT CCOMMANDS
+========================================INIT CCOMMANDS=============================
 
 	git init
 	git remote add origin "Link"
@@ -34,7 +38,7 @@ INIT CCOMMANDS
 	
 	
 	
-WORK FLOW 
+========================================WORK FLOW===================================== 
 
 	Create repo 
 	   |
@@ -57,7 +61,7 @@ WORK FLOW
 	
 	
 	
-BRANCH COMMANDS
+======================================BRANCH COMMANDS=====================================
 
 	git branch (check brach) 
 	git checkout -b "branchName"  (create a new branch)
@@ -65,18 +69,33 @@ BRANCH COMMANDS
 	git checkout "branchName" (to navigate branch)
 	
 	
-MERGING CODE
+=======================================MERGING CODE=========================================
 
 	git diff "branchname"
 	git merge "branch name" ---- can also do from gitweb	
 
-GIT PULL
+==========================================GIT PULL==========================================
 	
 	git pull origin
 	
 	
 	
-UNDOING CHANGES
+=====================================UNDOING CHANGES==========================================
+	*can undo after git add 
+	git reset "filename"
+	git reset
 	
+	*can undo after git commit 
+	git reset HEAD~1
+	
+	*commited changes
+	git reset "commit hash"
+	git reset --hard "hashcode" toreflect all changes in VSCODE
+	
+	
+
+=============================================FORK===============================================
+means creating copy to our branch
+	 
 	
 	   
